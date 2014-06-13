@@ -51,9 +51,9 @@ function pqPrimeLong(what) {
 
     for (var j = 1; j < lim; j++) {
       ++it;
-      if (!(it % 1000)) {
-        console.log(dT(), 'it', it, i, j, x.toString());
-      }
+      // if (!(it % 1000)) {
+      //   console.log(dT(), 'it', it, i, j, x.toString());
+      // }
       var a = x,
         b = x,
         c = q;
